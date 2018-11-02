@@ -1,6 +1,8 @@
-# Libby Alexa Skill
+# Flicks Alexa Skill
 
 Ask [Alexa](http://alexa.design) about your Movie and TV Show library queues.
+
+** Fork of Libby which is going to be updated and changed - watch this space **
 
 [![GitHub version](https://badge.fury.io/gh/josephschmitt%2Falexa-libby.svg)](https://badge.fury.io/gh/josephschmitt%2Falexa-libby)
 [![CircleCI](https://circleci.com/gh/josephschmitt/alexa-libby.svg?style=shield)](https://circleci.com/gh/josephschmitt/alexa-libby)
