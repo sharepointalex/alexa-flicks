@@ -1,2 +1,13 @@
 // Lambda entry point
-exports.handler = require('./dist/app.js').default;
+const Alexa = require('ask-sdk-core');
+//const Movies = require('./src/handlers/movies');
+const General = require('./src/handlers/general');
+
+const skillBuilder = Alexa.SkillBuilders.custom();
+
+exports.handler = skillBuilder
+.addRequestHandlers(
+   // Movies.findMovieIntentHander,
+    General.launchRequestHandler
+)
+.lambda();

@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.7c039d19-8980-4fcb-a928-12019f140f93",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:459100577088:function:Flicks"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
